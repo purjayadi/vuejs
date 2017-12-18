@@ -1,0 +1,11 @@
+@extends('layouts.admin')
+
+@section('content')
+	<section class="content">
+			<div class="container-fluid" id="app">
+				<router-view name="halamanIndex"></router-view>
+				<router-view>
+				</router-view>
+			</div>
+		</section>
+@endsection
